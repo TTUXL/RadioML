@@ -1,9 +1,9 @@
 import tensorflow as tf
 
-#modle 1
+#model 1
 state=tf.Variable(0,name="counter")
 
-#modle 2
+#model 2
 new_state=tf.add(state,1)
 update=tf.assign(state,new_state)
 
